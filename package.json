@@ -1,0 +1,27 @@
+{
+  "name": "vlc-playlist-control",
+  "version": "0.1.0",
+  "description": "Provides an easy way to control the playback of a VLC playlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanWinther/vlc-playlist-control.git"
+  },
+  "keywords": [
+    "vlc",
+    "playlist",
+    "control"
+  ],
+  "author": "Johan Winther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohanWinther/vlc-playlist-control/issues"
+  },
+  "homepage": "https://github.com/JohanWinther/vlc-playlist-control#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
