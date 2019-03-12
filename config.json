@@ -1,7 +1,0 @@
-{
-    "vlc":
-    {
-        "server": "localhost:8080",
-        "password": ""
-    }
-}

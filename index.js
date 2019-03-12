@@ -1,8 +1,10 @@
-var config = require("./config.json");
 var request = require('request');
 
-var args = process.argv.slice(2);
-let url = `http://:${config.vlc.password}@${config.vlc.server}/requests/playlist.json`;
+const server  = "localhost:8080";
+const password= "1337";
+
+let args = process.argv.slice(2);
+let url = `http://:${password}@${server}/requests/playlist.json`;
 if (args[0] === 'video') {
     let idx = args[1]-1;
     request.get({url:url, json:true}, function (e, r, p) {
