@@ -12,6 +12,7 @@ npm install
 ```
 
 ## Commands
+The commands need to be run in the same directory as `index.js` or be referenced full paths.
 ### Start video number N in opened playlist
 ```batch
 node index.js video N
