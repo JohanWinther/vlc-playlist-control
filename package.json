@@ -15,7 +15,7 @@
     "playlist",
     "control"
   ],
-  "author": "Johan Winther",
+  "author": "Johan Winther <johan.winther@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JohanWinther/vlc-playlist-control/issues"
